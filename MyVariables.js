@@ -11,7 +11,3 @@ s.prop1 = "Prop";
 
 // send the data to the report suite
 s.t();
-
-
-
-
