@@ -18,7 +18,7 @@ alloy("sendEvent", {
                 "customDimensions": {
                     "eVars": {
                         "eVar1": "Web SDK RIdM example value",
-                        "eVar2": "And now for something completely different…"
+                        "eVar2": "And now for something completely different"
                     }
                 }
             }

@@ -8,6 +8,7 @@ s.trackingServer = "ridm.data.adobedc.net";
 s.pageName = "RIdM Home Page";
 s.eVar1 = "Exanple value";
 s.prop1 = "Prop";
+s.visitorID = "0000000" // strictly anonymizing AA implementation
 
 // send the data to the report suite
 s.t();
