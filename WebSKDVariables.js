@@ -25,3 +25,15 @@ alloy("sendEvent", {
         }
     }
 });
+
+// retrieve the ECID
+alloy("getIdentity")
+  .then(function(result) {
+    // The command succeeded.
+    console.log("ECID:", result.identity.ECID);
+    console.log("RegionId:", result.edge.regionId);
+  })
+  .catch(function(error) {
+    // The command failed.
+    // "error" will be an error object with additional information.
+  });
