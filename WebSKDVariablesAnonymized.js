@@ -32,7 +32,7 @@ alloy("sendEvent", {
       "identityMap": {
         "ECID": [ // Notice how each namespace can contain multiple identifiers.
           {
-            "id": "0",
+            "id": "00000000000000000000000000000000000000",
             "authenticatedState": "ambiguous",
             "primary": true
           }
