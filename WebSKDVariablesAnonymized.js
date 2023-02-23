@@ -51,4 +51,6 @@ alloy("getIdentity")
   .catch(function(error) {
     // The command failed.
     // "error" will be an error object with additional information.
+    console.log("Something went wrong, could not find an ECID")
+    console.error(error)
   });
