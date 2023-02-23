@@ -39,7 +39,7 @@ alloy("sendEvent", {
     }
 });
 
-console.log("Explicity set the ECID to 0...")
+console.log("Explicity set the ECID to 00000000000000000000000000000000000000...")
 
 // retrieve the ECID
 alloy("getIdentity")
@@ -52,5 +52,5 @@ alloy("getIdentity")
     // The command failed.
     // "error" will be an error object with additional information.
     console.log("Something went wrong, could not find an ECID")
-    console.error(error)
+    console.log("Error: ", error)
   });
