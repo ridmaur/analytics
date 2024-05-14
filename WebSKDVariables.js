@@ -44,3 +44,14 @@ alloy("getIdentity")
     // The command failed.
     // "error" will be an error object with additional information.
   });
+
+  alloy("getLibraryInfo").then(function(result) {
+    console.log("Library version: ", result.libraryInfo.version);
+    console.log("Library commands: ", result.libraryInfo.commands);
+    console.log("Library configs: ", result.libraryInfo.configs);
+  }).catch(function(error) {
+    // The command failed.
+    // "error" will be an error object with additional information.
+    console.error("Error: ", error)
+  });;
+ 
