@@ -23,7 +23,7 @@ alloy("sendEvent", {
                 }
             }
         },
-        "_atag": {
+        "_experience": {
             "analytics": {
                 "contextData": {
                     "someValue": "1"
@@ -53,5 +53,5 @@ alloy("getIdentity")
     // The command failed.
     // "error" will be an error object with additional information.
     console.error("Error: ", error)
-  });;
+  });
  
