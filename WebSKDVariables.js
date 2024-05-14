@@ -20,11 +20,7 @@ alloy("sendEvent", {
                         "eVar1": "Web SDK example",
                         "eVar2": "And now for something completely different"
                     }
-                }
-            }
-        },
-        "_experience": {
-            "analytics": {
+                },
                 "contextData": {
                     "someValue": "1"
                 }
