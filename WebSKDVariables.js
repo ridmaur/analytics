@@ -22,7 +22,8 @@ alloy("sendEvent", {
                     }
                 },
                 "contextData": {
-                    "someValue": "1"
+                    "someValue": "1",
+                    "anotherVaue": "abc"
                 }
             }
         }
