@@ -22,6 +22,13 @@ alloy("sendEvent", {
                     }
                 }
             }
+        },
+        "_atag": {
+            "analytics": {
+                "contextData": {
+                    "someValue": "1"
+                }
+            }
         }
     }
 });
